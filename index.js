@@ -2,7 +2,8 @@
 function dwarfRollCall(dwarves) {
   var names = []
   for (var i = 0; i < dwarves.length; i++) {
-    names.push((i + 1) + ". " + dwarves[i]+ " ");
+    names.push(`${i + 1}. ${dwarves[i]} `)
+    // names.push((i + 1) + ". " + dwarves[i]+ " ");
   }
   return names.join("");
 }
